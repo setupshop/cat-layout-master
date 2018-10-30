@@ -6,7 +6,8 @@
   max-width: 500px;
 }
 footer {
-  background-color: grey;
+  color: white;
+  background-color: rgb(58,58,58);
   clear:both;
 }
 .container {
@@ -15,6 +16,7 @@ footer {
   padding: 1rem;
 }
 .main-box {
+  clear: both;
   float: left;
   max-width: 500px;
   padding-left: 40px;
@@ -23,12 +25,19 @@ h1 {
   font: 3rem;
 }
 header {
-  background-color: skyblue;
+  background-color: rgb(44,154,183);
+  font-family: "Arial", Helvetica, sans-serif;
+  color: white;
+  padding-left: 40px;
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
 }
 .sidebar {
   float: right;
   overflow: auto;
   max-width: 300px;
-
 }
- 
+a {
+  color: white;
+}
