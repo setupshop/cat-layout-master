@@ -50,3 +50,9 @@ a {
 .sidebar-cat {
   width: 250px;
 }
+.about-page {
+  background-color: rgb(44,154,183);
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
