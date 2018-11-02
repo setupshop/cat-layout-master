@@ -1,6 +1,7 @@
 
 * {
   box-sizing: border-box;
+  font-family: "Arial", Helvetica, sans-serif;
 }
 footer {
   color: white;
@@ -11,10 +12,10 @@ footer {
   padding-left: 80px;
 }
 nav {
-  width: auto;
   height: 40px;
   background-color: silver;
   color: black;
+  overflow: auto;
 }
 .container {
   margin: 0 auto;
@@ -22,7 +23,6 @@ nav {
   padding: 1rem;
 }
 .main-box {
-  clear: both;
   float: left;
   max-width: 500px;
   padding-left: 80px;
@@ -39,13 +39,15 @@ a.nav {
   color: black;
 }
 .sidebar {
-  float: right;
+  /* float: right; */
   overflow: auto;
-  max-width: 250px;
+  max-width: 300px;
   padding-right: 40px;
+  padding-left: 40px;
 }
 a {
   color: white;
+  text-decoration: none;
 }
 .sidebar-cat {
   width: 250px;
